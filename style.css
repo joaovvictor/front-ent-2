@@ -1,0 +1,689 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*  HEADER  */
+
+header{
+    /* border: 1px solid black; */
+    padding: 17px;
+    background-color: #045694;
+}
+
+
+.div-1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.523);
+    align-items: center;
+    font-size: 12px;
+}
+#lista-1{
+    display: flex; 
+    gap: 20px;
+    list-style-type: none; 
+}
+
+.div-2 {
+   
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    justify-content: flex-start;
+    
+}
+
+#lista-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 80px;
+    padding: 12px 0 0 20px;
+    font-size: 13px;
+
+}
+
+
+#imgfifa{
+    width: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    /* font-size: 16px; */
+}
+
+
+.icones{
+    
+    width: 150px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+
+/* MAIN */
+
+
+.secao-1{
+    display: flex;
+    height: 80vh;
+    font-weight: bolder;
+}
+
+.watch-fifa{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://digitalhub.fifa.com/transform/9a17f3df-55f7-4b6c-be8c-812401566dab/MicrosoftTeams-image-139");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+    /* flex-wrap: wrap; */
+    
+    
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+.watch-fifa button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%);
+}
+
+.watch-fifa button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+  }
+
+.copa {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    color: white;
+    background-image: url("https://digitalhub.fifa.com/transform/b1ea7150-e184-4bf4-86a1-18b7426dd0ac/Spain-v-England-Final-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,height:868,width:1366&quality=75");  
+    background-size: cover;
+    background-position-y: center;
+    font-size: 15px;
+    /* filter: brightness(0.25) opacity(0.8); */
+    box-shadow: inset 0px -230px 230px rgba(0, 0, 0, 0.625);
+    
+    
+}
+
+/* cards */ 
+
+#h1-cards{
+    padding: 30px 0 0 30px;
+    font-size: medium;
+}
+
+.secao-2{
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 27px;
+    height: 300px;
+    text-align: center;
+    
+    
+}
+
+.img-cards{
+    width: 90%;
+    border-radius: 12px;
+    /* border: none; */
+    
+}
+
+
+.img-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* CARDS 2 */
+
+#h1-cards2{
+    padding: 40px 0 10px 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.img-card img:hover{
+    position: relative;
+    top:-2px;right: -2px;
+    box-shadow:0 2px 2px #666;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* CARD 3 */
+
+.secao-3{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 40px 0 40px;
+    height: 75vh;
+
+   
+   
+}
+
+
+#img-trofeu{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#img-trofeu:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* .container2{
+    width: 50%;
+} */
+
+#io{
+    padding: 15px 0 15px 0;
+    font-weight: 400;
+    
+}
+
+#p10{
+    font-size: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 0 0 100px 0;
+    text-align: start;
+    font-size: larger;
+}
+
+.g1{
+    width: 400px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+/* ultimo card :) */
+
+#trofeuindo{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+#up{
+    padding-bottom: 30px;
+}
+
+.secao-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #045694;
+    height: 40vh;
+    color: white;
+}
+
+.m1{
+    width: 400px;
+    border-radius: 20px;
+    transition: width 2s, height 4s;
+}
+
+.m1:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+    
+}
+
+/* --------------------------- */
+
+.secao-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+
+
+
+.m2{
+    width: 400px;
+    border-radius: 20px;
+    transition: width 2s, height 4s;
+    
+}
+
+.m2:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+    
+}
+
+#up2{
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+#n1{
+    padding-bottom: 32px;
+}
+
+/* --------------------- */
+
+
+
+.secao-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #045694;
+    height: 40vh;
+    color: white;
+}
+
+.m3{
+    width: 400px;
+    border-radius: 20px;
+    transition: width 2s, height 4s;
+}
+
+.m3:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+    
+}
+
+/* secao 7 */
+
+.secao-7{
+    background-image: url("https://digitalhub.fifa.com/transform/81be39fe-e184-484c-9254-75b6cb15655f/FPLS_FIFAStore_Banner_01?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 500;
+    font-size: 19px;
+    box-shadow: inset 0px -230px 230px rgba(15, 147, 165, 0.622);
+}
+
+#fifastore{
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+
+.div-secao7 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%); 
+}
+
+.div-secao7 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+/*    */
+
+.secao-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: aliceblue;
+    gap:40px;
+}
+
+.m6{
+    width: 200px;
+    border-radius: 20px;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+    
+}
+.fifinha{
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+#chega{
+    padding-bottom: 38px;
+}
+
+
+.secao-9{
+    background-image: url("https://digitalhub.fifa.com/transform/6dbd41e4-2acb-4d70-a237-0e328e15bb2d/FIFAPLUS_Tournaments_ORIGINALS_1920x747?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 500;
+    font-size: 19px;
+    box-shadow: inset 0px -230px 230px rgba(15, 147, 165, 0.622);
+}
+
+.div-secao9 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%); 
+}
+
+.div-secao9 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.fifastor2{
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+/* secao 10  ACABAAAAAAA PELO AMOR DE DEUS*/
+
+
+.secao-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+    
+}
+
+.m9{
+    width: 85%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.pele{
+    font-weight: 400;
+    font-size: large;
+    padding-bottom: 12px;
+
+}
+
+.arrumando{
+    padding: 0 0 30px 40px;
+}
+
+.m9:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+    
+}
+
+/*  secao 11   */
+
+.secao-11{
+    background-image: url("https://digitalhub.fifa.com/transform/f226cf4b-830e-40d7-9054-934fe7a0f87f/Full-bleed-container-Inside-FIFA?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 400;
+    font-size: larger;
+    box-shadow: inset 0px -230px 230px rgba(0, 0, 0, 0.571);
+}
+
+.div-secao11 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%);
+    color: white; 
+}
+
+.div-secao11 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.h1nao{
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+/* -------------------- */
+
+.secao-12{
+    background-image: url("https://digitalhub.fifa.com/transform/c533bc74-438c-4597-a2a1-748122b5f18b/FPS_PlayZone_Welcome_Banner_DT?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 400;
+    font-size: larger;
+    box-shadow: inset 0px -230px 230px rgba(8, 5, 211, 0.528);
+}
+
+.div-secao12 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%); 
+    color: white;
+}
+
+.div-secao12 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.bb1{
+    font-weight: 500;
+    
+}
+
+/*   -----------------------  */
+
+.secao-13{
+    background-image: url("https://digitalhub.fifa.com/transform/ab928648-e135-420b-a1e1-a7a1a6696603/LIVEOnFIFA-_Banner_00?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 400;
+    font-size: larger;
+    box-shadow: inset 0px -230px 230px rgba(8, 5, 211, 0.528);
+}
+
+.div-secao13 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%); 
+}
+
+.div-secao13 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+/*          */
+
+.secao-14{
+    background-image: url("https://digitalhub.fifa.com/transform/42a02390-6fb8-4841-b0a5-b4957f0813e6/FplusC_HERO_2112x984?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    box-shadow: #666;
+    font-weight: 400;
+    font-size: larger;
+    box-shadow: inset 0px -230px 230px rgba(8, 5, 211, 0.528);
+}
+
+.div-secao14 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: white;
+    background: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(62,222,255,1) 100%); 
+}
+
+.div-secao14 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+
+/* FOOTER */
+.div-footer{
+    background-color: #020f2a;
+}
+
+.footerpai{
+    border-bottom: 1px solid rgb(19, 185, 214);
+    
+}
+
+
+.lista10{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.imgfifa{
+    width: 10px;
+    height: 10px;
+
+}
+
+
+.twitter{
+    margin-left:200px;
+}
+
+
+
+.footerpaipai{
+    height: 7vh;
+    font-size: large;
+    font-weight: 600;
+}
+
+.secaofooter{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    list-style-type: none;
+    gap:60px;
+}
+
